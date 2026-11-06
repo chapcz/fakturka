@@ -1,0 +1,9 @@
+.superpowers/
+build/
+.gradle/
+.idea/
+*.iml
+local.properties
+.kotlin/
+start.sh
+docs/superpowers/

@@ -1,0 +1,267 @@
+@page {
+    size: A4;
+    margin: 12mm 10mm 22mm 10mm;
+    @bottom-center {
+        content: element(footer);
+        vertical-align: top;
+    }
+}
+
+body {
+    font-family: 'Noto Sans';
+    font-size: 7.5pt;
+    color: #000;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 0;
+    vertical-align: top;
+}
+
+.strong { font-weight: bold; }
+.right { text-align: right; }
+
+/* min-height = A4 content height; keeps the QR code and the signature at the bottom of the last page */
+.page {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 262mm;
+    padding-bottom: 42mm;
+}
+
+/* header */
+.header {
+    text-align: right;
+    margin-bottom: 4mm;
+}
+.header .title { font-size: 14pt; font-weight: bold; }
+.header .number { font-size: 11pt; }
+
+/* supplier and customer boxes */
+table.parties {
+    width: 100%;
+    border-collapse: separate;
+}
+.parties td.gap { width: 5%; }
+.parties td.box {
+    width: 47.5%;
+    border: 0.75pt solid #888;
+    padding: 2mm 4mm 2mm 4mm;
+}
+.parties td.box-top {
+    border-bottom: none;
+    border-radius: 2mm 2mm 0 0;
+    padding-bottom: 2mm;
+}
+.parties td.box-bottom {
+    border-radius: 0 0 2mm 2mm;
+}
+.heading {
+    font-size: 8.5pt;
+    font-weight: bold;
+}
+.heading.small { font-size: 7pt; margin-bottom: 0.5mm; }
+.party-name {
+    font-size: 8.5pt;
+    font-weight: bold;
+    margin-bottom: 3mm;
+}
+.address { font-size: 8.5pt; line-height: 1.15; }
+table.ids { margin: 1.5mm 0 3mm 1mm; font-size: 7pt; }
+.ids td.ico { width: 27mm; }
+table.contacts { font-size: 7pt; line-height: 1.05; }
+.contacts td.label { width: 12mm; }
+table.bank { font-size: 7pt; }
+.bank td.label { width: 25mm; }
+.bank tr.bank-name td, .bank tr.account td { font-size: 7.5pt; }
+.bank tr.account td.strong { font-size: 9.5pt; }
+.bank td { padding-bottom: 0.2mm; }
+.delivery { font-size: 7pt; line-height: 1.1; }
+
+/* grey information strip */
+.info {
+    margin-top: 2.5mm;
+    background-color: #f3f3f3;
+    border: 0.75pt solid #999;
+    border-radius: 2mm;
+    padding: 1.5mm 4mm 2mm 4mm;
+}
+.info table { width: 100%; table-layout: fixed; }
+.info td { padding-bottom: 0.4mm; }
+.info td.label { white-space: nowrap; padding-right: 2mm; }
+.info td.label.col0 { width: 20%; }
+.info td.value.col0 { width: 14%; }
+.info td.label.col1 { width: 13.5%; }
+.info td.value.col1 { width: 16.5%; }
+.info td.label.col2 { width: 12%; }
+.info tr.spacer td { height: 3mm; }
+.info tr.big td { vertical-align: middle; }
+.info tr.big td.value.strong { font-size: 10.5pt; }
+
+/* items */
+table.items {
+    width: 100%;
+    margin-top: 10mm;
+    border-collapse: collapse;
+}
+.items th {
+    font-weight: normal;
+    font-size: 6.5pt;
+    text-align: right;
+    background-color: #f3f3f3;
+    border-top: 0.75pt solid #999;
+    border-bottom: 0.75pt solid #999;
+    padding: 1.2mm 1mm 1.2mm 1mm;
+}
+.items td {
+    text-align: right;
+    font-size: 7.5pt;
+    border-bottom: 0.75pt solid #999;
+    padding: 1.5mm 1mm 1.5mm 1mm;
+}
+.items th:first-child, .items td:first-child { border-left: 0.75pt solid #999; }
+.items th:last-child, .items td:last-child { border-right: 0.75pt solid #999; }
+.items .left { text-align: left; }
+.items th.w-desc { width: 43%; }
+.items th.w-qty { width: 5.4%; }
+.items th.w-unit { width: 4.7%; }
+.items th.w-price { width: 8%; }
+.items th.w-discount { width: 4.5%; }
+.items th.w-total { width: 9.7%; }
+.items th.w-rate { width: 4.9%; }
+.items th.w-vat { width: 9%; }
+.items th.w-gross { width: 10.7%; }
+.items td.description { font-weight: bold; font-size: 8pt; }
+
+/* VAT summary and total */
+.summary {
+    margin-top: 5mm;
+}
+table.recap-outer {
+    margin-left: auto;
+    width: 63%;
+}
+td.recap-label {
+    width: 19%;
+    font-size: 6.5pt;
+    padding-top: 0.6mm;
+}
+table.recap {
+    width: 100%;
+    font-size: 6.5pt;
+}
+.recap th {
+    font-weight: normal;
+    text-align: right;
+    border: 0.75pt solid #999;
+    border-left: none;
+    border-right: none;
+    padding: 0.6mm 1mm 0.6mm 1mm;
+}
+.recap th:first-child { border-left: 0.75pt solid #999; }
+.recap th:last-child { border-right: 0.75pt solid #999; }
+.recap td {
+    text-align: right;
+    padding: 0.3mm 1mm 0 1mm;
+}
+.recap .left { text-align: left; }
+.recap td.rate { text-align: right; padding-right: 4mm; }
+.recap th.left { width: 12%; }
+.recap tr.sum td { font-weight: bold; }
+
+table.amount-due {
+    margin-top: 5mm;
+    margin-left: auto;
+    width: 51%;
+    background-color: #f3f3f3;
+    border: 0.75pt solid #999;
+}
+.amount-due td {
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 2mm 1.5mm 2mm 2mm;
+}
+.amount-due td.value { text-align: right; }
+
+.reverse-charge {
+    margin-top: 3mm;
+    text-align: right;
+    font-size: 7.5pt;
+}
+
+/* QR code and signature, pinned above the footer */
+.bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3mm;
+    height: 40mm;
+}
+.qr {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.qr-image {
+    width: 26mm;
+    height: 26mm;
+    margin-left: 1mm;
+}
+.qr-label {
+    margin-top: 6mm;
+    font-size: 8.5pt;
+    font-weight: bold;
+}
+.signature {
+    position: absolute;
+    right: 19mm;
+    bottom: 0;
+    width: 57mm;
+    border-top: 0.75pt solid #000;
+    text-align: center;
+    font-size: 7pt;
+    padding-top: 0.5mm;
+}
+
+/* stamp and signature image, standing on the signature line */
+.signature-image {
+    position: absolute;
+    right: 19mm;
+    bottom: 2mm;
+    width: 57mm;
+    text-align: center;
+}
+.signature-image img {
+    max-width: 57mm;
+    max-height: 34mm;
+}
+
+/* bilingual EU invoice: longer labels need wider label columns */
+.eu .ids td.ico { width: 40mm; }
+.eu .contacts td.label { width: 22mm; }
+.eu .bank td.label { width: 38mm; }
+.eu .info td.label { white-space: normal; }
+.eu .info td.label.col0 { width: 17%; }
+.eu .info td.value.col0 { width: 7%; }
+.eu .info td.label.col1 { width: 22%; }
+.eu .info td.value.col1 { width: 14%; }
+.eu .info td.label.col2 { width: 22%; }
+.eu .recap th.left { width: 18%; }
+
+/* running footer */
+.footer {
+    position: running(footer);
+    width: 100%;
+    border-top: 0.5pt solid #bbb;
+    font-size: 5pt;
+    color: #777;
+}
+.footer table { width: 100%; }
+.footer td { padding-top: 1mm; padding-bottom: 2.5mm; }
+.page-number::after { content: counter(page); }

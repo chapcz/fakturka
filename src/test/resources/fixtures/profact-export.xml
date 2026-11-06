@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOKLADY>
+	<DOKLAD>
+		<Cislo_dokladu>2600020</Cislo_dokladu>
+		<KS>0308</KS>
+		<VS>2600020</VS>
+		<Datum_splatnosti>15.10.2026</Datum_splatnosti>
+		<Datum_vystaveni>1.10.2026</Datum_vystaveni>
+		<DUZP>1.10.2026</DUZP>
+		<Odberatel>Testovací firma s.r.o.</Odberatel>
+		<O_Adresa_1>Smyšlená 742/15B</O_Adresa_1>
+		<O_PSC>120 00</O_PSC>
+		<O_Mesto>Praha 2</O_Mesto>
+		<O_IC>12345678</O_IC>
+		<O_DIC>cz12345678</O_DIC>
+		<Forma_uhrady>převodním příkazem</Forma_uhrady>
+		<Prijemce>Testovací firma s.r.o.</Prijemce>
+		<P_Adresa_1>Smyšlená 742/15B</P_Adresa_1>
+		<P_PSC>120 00</P_PSC>
+		<P_Mesto>Praha 2</P_Mesto>
+		<Typ_dokladu>FAKTURA - daňový doklad</Typ_dokladu>
+		<O_Stat>Česká republika</O_Stat>
+		<P_Stat>Česká republika</P_Stat>
+		<Mena>CZK</Mena>
+		<Stornovano>0</Stornovano>
+		<Celkem_s_DPH>25894.00</Celkem_s_DPH>
+		<EUVAT>0</EUVAT>
+		<POLOZKY>
+			<POLOZKA>
+				<Nazev>Programátorské práce</Nazev>
+				<Mnozstvi>20.5</Mnozstvi>
+				<DPH_proc>21</DPH_proc>
+				<MJ>h</MJ>
+				<Sleva_v_proc>0</Sleva_v_proc>
+				<Cena_MJ>1000</Cena_MJ>
+			</POLOZKA>
+			<POLOZKA>
+				<Nazev>Licence</Nazev>
+				<Mnozstvi>1</Mnozstvi>
+				<DPH_proc>21</DPH_proc>
+				<MJ></MJ>
+				<Sleva_v_proc>10</Sleva_v_proc>
+				<Cena_MJ>1000</Cena_MJ>
+			</POLOZKA>
+		</POLOZKY>
+	</DOKLAD>
+	<DOKLAD>
+		<Cislo_dokladu>2600021</Cislo_dokladu>
+		<Datum_splatnosti>21.10.2026</Datum_splatnosti>
+		<Datum_vystaveni>7.10.2026</Datum_vystaveni>
+		<DUZP>7.10.2026</DUZP>
+		<Odberatel>Kunde GmbH</Odberatel>
+		<O_Adresa_1>Teststraße 5</O_Adresa_1>
+		<O_PSC>10115</O_PSC>
+		<O_Mesto>Berlin</O_Mesto>
+		<O_IC></O_IC>
+		<O_DIC>DE123456789</O_DIC>
+		<Typ_dokladu>FAKTURA - daňový doklad</Typ_dokladu>
+		<O_Stat>Německo</O_Stat>
+		<Mena>CZK</Mena>
+		<Stornovano>0</Stornovano>
+		<Celkem_s_DPH>72000</Celkem_s_DPH>
+		<EUVAT>1</EUVAT>
+		<POLOZKY>
+			<POLOZKA>
+				<Nazev>Software development</Nazev>
+				<Mnozstvi>8</Mnozstvi>
+				<DPH_proc>0</DPH_proc>
+				<MJ>MD</MJ>
+				<Sleva_v_proc>0</Sleva_v_proc>
+				<Cena_MJ>9000</Cena_MJ>
+			</POLOZKA>
+		</POLOZKY>
+	</DOKLAD>
+	<DOKLAD>
+		<Cislo_dokladu>2600019</Cislo_dokladu>
+		<Typ_dokladu>FAKTURA - daňový doklad</Typ_dokladu>
+		<Stornovano>1</Stornovano>
+	</DOKLAD>
+	<DOKLAD>
+		<Cislo_dokladu>2690001</Cislo_dokladu>
+		<Typ_dokladu>Zálohová faktura</Typ_dokladu>
+		<Stornovano>0</Stornovano>
+	</DOKLAD>
+	<DOKLAD>
+		<Cislo_dokladu>2600023</Cislo_dokladu>
+		<Typ_dokladu>FAKTURA - daňový doklad</Typ_dokladu>
+		<Stornovano>0</Stornovano>
+		<Mena>EUR</Mena>
+	</DOKLAD>
+	<DOKLAD>
+		<Cislo_dokladu>2600024</Cislo_dokladu>
+		<Datum_splatnosti>15.11.2026</Datum_splatnosti>
+		<Datum_vystaveni>1.11.2026</Datum_vystaveni>
+		<DUZP>1.11.2026</DUZP>
+		<Odberatel>Testovací firma s.r.o.</Odberatel>
+		<O_Adresa_1>Smyšlená 742/15B</O_Adresa_1>
+		<O_PSC>12000</O_PSC>
+		<O_Mesto>Praha 2</O_Mesto>
+		<O_IC>12345678</O_IC>
+		<O_DIC>CZ12345678</O_DIC>
+		<Typ_dokladu>FAKTURA - daňový doklad</Typ_dokladu>
+		<Mena>CZK</Mena>
+		<Stornovano>0</Stornovano>
+		<Celkem_s_DPH>999.99</Celkem_s_DPH>
+		<POLOZKY>
+			<POLOZKA>
+				<Nazev>Práce</Nazev>
+				<Mnozstvi>1</Mnozstvi>
+				<DPH_proc>21</DPH_proc>
+				<Cena_MJ>1000</Cena_MJ>
+			</POLOZKA>
+		</POLOZKY>
+	</DOKLAD>
+</DOKLADY>

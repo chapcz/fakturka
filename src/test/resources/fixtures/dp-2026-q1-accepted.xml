@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pisemnost nazevSW="EPO MF ČR" verzeSW="48.4.1">
+<DPHDP3 verzePis="03.01">
+<VetaD c_okec="620300" ctvrt="1" d_poddp="20.04.2026" dapdph_forma="B" dokument="DP3" k_uladis="DPH" kod_zo="Q" rok="2026" trans="A" typ_platce="P" />
+<VetaP c_pop="1" c_telef="+420123456789" c_ufo="461" c_pracufo="2509" dic="12345678" email="test@example.com" jmeno="Test" naz_obce="Praha" prijmeni="Dodavatel" psc="11000" stat="ČESKÁ REPUBLIKA" titul="Ing. Ph.D." typ_ds="F" ulice="Testovací" />
+<Veta1 dan23="10028" obrat23="47750" />
+<Veta4 odp_sum_kr="0" odp_sum_nar="210" odp_tuz23_nar="210" pln23="1000" />
+<Veta5 odp_uprav_kf="0" />
+<Veta6 dan_zocelk="10028" dano="0" dano_da="9818" dano_no="0" odp_zocelk="210" />
+</DPHDP3>
+<Kontrola><Veta__H nazev="P:typ_ds" puv_data="F" poradi="1" />
+<Veta__H nazev="P:titul" puv_data="Ing.,Ph.D." poradi="1" />
+<Veta__H nazev="P:ulice" puv_data="Testovací" poradi="1" />
+<Veta__H nazev="P:naz_obce" puv_data="Praha" poradi="1" />
+<Veta__H nazev="P:c_telef" puv_data="123456789" poradi="1" />
+<Soubor Delka="675" KC="00000000000000000000000000000000" Nazev="DPHDP3-12345678-20260420-101500" c_ufo="461" /></Kontrola></Pisemnost>

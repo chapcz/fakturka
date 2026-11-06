@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<issuedInvoices year="2026" version="1">
+  <invoices>
+    <invoice>
+      <number>2600013</number>
+      <issueDate>2026-07-03</issueDate>
+      <taxDate>2026-07-03</taxDate>
+      <dueDate>2026-07-17</dueDate>
+      <customer>
+        <id>alfa</id>
+        <name>Alfa Software s.r.o.</name>
+        <address>
+          <street>Smyšlená</street>
+          <houseNumber>742/15B</houseNumber>
+          <city>Praha 2</city>
+          <postcode>12000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>11223344</ico>
+        <dic>cz11223344</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600013</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Programátorské práce</description>
+          <quantity>12</quantity>
+          <unit>ks</unit>
+          <unitPrice>1000.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+    <invoice>
+      <number>2600014</number>
+      <issueDate>2026-07-08</issueDate>
+      <taxDate>2026-07-08</taxDate>
+      <dueDate>2026-07-22</dueDate>
+      <customer>
+        <id>beta</id>
+        <name>Beta Systems a.s.</name>
+        <address>
+          <street>Ulice</street>
+          <houseNumber>1</houseNumber>
+          <city>Praha</city>
+          <postcode>11000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>33445566</ico>
+        <dic>CZ33445566</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600014</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Konzultační služby</description>
+          <quantity>6</quantity>
+          <unit>ks</unit>
+          <unitPrice>350.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+    <invoice>
+      <number>2600015</number>
+      <issueDate>2026-07-14</issueDate>
+      <taxDate>2026-07-14</taxDate>
+      <dueDate>2026-07-28</dueDate>
+      <customer>
+        <id>gama</id>
+        <name>Gama Tech s.r.o.</name>
+        <address>
+          <street>Ulice</street>
+          <houseNumber>2</houseNumber>
+          <city>Praha</city>
+          <postcode>11000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>22334455</ico>
+        <dic>CZ22334455</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600015</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Vývoj software</description>
+          <quantity>1</quantity>
+          <unit>ks</unit>
+          <unitPrice>9000.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+    <invoice>
+      <number>2600016</number>
+      <issueDate>2026-08-04</issueDate>
+      <taxDate>2026-08-04</taxDate>
+      <dueDate>2026-08-18</dueDate>
+      <customer>
+        <id>alfa</id>
+        <name>Alfa Software s.r.o.</name>
+        <address>
+          <street>Smyšlená</street>
+          <houseNumber>742/15B</houseNumber>
+          <city>Praha 2</city>
+          <postcode>12000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>11223344</ico>
+        <dic>cz11223344</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600016</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Programátorské práce</description>
+          <quantity>10</quantity>
+          <unit>ks</unit>
+          <unitPrice>1000.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+    <invoice>
+      <number>2600017</number>
+      <issueDate>2026-08-11</issueDate>
+      <taxDate>2026-08-11</taxDate>
+      <dueDate>2026-08-25</dueDate>
+      <customer>
+        <id>beta</id>
+        <name>Beta Systems a.s.</name>
+        <address>
+          <street>Ulice</street>
+          <houseNumber>1</houseNumber>
+          <city>Praha</city>
+          <postcode>11000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>33445566</ico>
+        <dic>CZ33445566</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600017</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Konzultační služby</description>
+          <quantity>6</quantity>
+          <unit>ks</unit>
+          <unitPrice>350.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+    <invoice>
+      <number>2600018</number>
+      <issueDate>2026-09-02</issueDate>
+      <taxDate>2026-09-02</taxDate>
+      <dueDate>2026-09-16</dueDate>
+      <customer>
+        <id>alfa</id>
+        <name>Alfa Software s.r.o.</name>
+        <address>
+          <street>Smyšlená</street>
+          <houseNumber>742/15B</houseNumber>
+          <city>Praha 2</city>
+          <postcode>12000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>11223344</ico>
+        <dic>cz11223344</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600018</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Programátorské práce</description>
+          <quantity>9</quantity>
+          <unit>ks</unit>
+          <unitPrice>1000.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+        <item>
+          <description>Vícepráce</description>
+          <quantity>1</quantity>
+          <unit>ks</unit>
+          <unitPrice>420.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+    <invoice>
+      <number>2600019</number>
+      <issueDate>2026-09-16</issueDate>
+      <taxDate>2026-09-16</taxDate>
+      <dueDate>2026-09-30</dueDate>
+      <customer>
+        <id>beta</id>
+        <name>Beta Systems a.s.</name>
+        <address>
+          <street>Ulice</street>
+          <houseNumber>1</houseNumber>
+          <city>Praha</city>
+          <postcode>11000</postcode>
+          <country>CZ</country>
+        </address>
+        <ico>33445566</ico>
+        <dic>CZ33445566</dic>
+        <type>DOMESTIC</type>
+      </customer>
+      <constantSymbol>0308</constantSymbol>
+      <variableSymbol>2600019</variableSymbol>
+      <paymentMethod>převodním příkazem</paymentMethod>
+      <items>
+        <item>
+          <description>Konzultační služby</description>
+          <quantity>26</quantity>
+          <unit>ks</unit>
+          <unitPrice>350.00</unitPrice>
+          <discount>0.00</discount>
+          <vatRate>STANDARD</vatRate>
+        </item>
+      </items>
+      <external>false</external>
+    </invoice>
+  </invoices>
+</issuedInvoices>
